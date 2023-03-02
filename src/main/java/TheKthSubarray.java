@@ -28,6 +28,7 @@ public class TheKthSubarray {
         return allSums.get((int)k-1);
     }
 
+
     public static void main(String[] args) {
         TheKthSubarray theKthSubarray = new TheKthSubarray();
         int[] a = new int[] {2,3,1,4};
