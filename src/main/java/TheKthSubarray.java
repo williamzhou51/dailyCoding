@@ -24,9 +24,11 @@ public class TheKthSubarray {
                 allSums.add(sum);
             }
         }
+
         Collections.sort(allSums);
         return allSums.get((int)k-1);
     }
+
 
 
     public static void main(String[] args) {
